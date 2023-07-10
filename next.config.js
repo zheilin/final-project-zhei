@@ -4,6 +4,7 @@ const nextConfig = {
   images: {
     domains: ['via.placeholder.com', 'localhost'],
   },
+  // comment for render twice issue
   // avoid cors with proxy
   // async rewrites() {
   //   return [
