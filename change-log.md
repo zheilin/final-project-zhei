@@ -1,9 +1,20 @@
 # Change Log
 
+
+## TODO
+
+- [ ] add  json file simulate post(insert) , put(update), delete(remove)
+
+## FIXME
+
+
+
+## LOG
+
+### 20231024-
+
 - -comment rewrite in `next.config.js`
-
 - +proxy in `next.config.js` need for test
-
 - +`"plugin:import/recommended"`ready to change env/files
 
 `npm install eslint-plugin-import eslint-import-resolver-alias --save-dev`
