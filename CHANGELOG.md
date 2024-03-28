@@ -1,15 +1,16 @@
 # Change Log
 
-
 ## TODO
-
-- [ ] add  json file simulate post(insert) , put(update), delete(remove)
 
 ## FIXME
 
-
-
 ## LOG
+
+> u: change/update a: add rm: remove !: notice
+
+### 20240328
+
+- (u) next.js to v14.1.4
 
 ### 20231024-
 
