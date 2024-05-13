@@ -2,9 +2,28 @@
 const nextConfig = {
   reactStrictMode: false,
   images: {
-    domains: ['via.placeholder.com', 'localhost'],
+    remotePatterns: [
+      {
+        protocol: 'https',
+        hostname: 'via.placeholder.com',
+      },
+      {
+        protocol: 'https',
+        hostname: 'picsum.photos',
+      },
+      {
+        protocol: 'https',
+        hostname: 'loremflickr.com',
+      },
+      {
+        protocol: 'http',
+        hostname: 'localhost',
+      },
+    ],
+    unoptimized: true,
   },
-  // comment for render twice issue
+  // output: 'export', // don't use with `next start` or api route
+  // distDir: 'dist',
   // avoid cors with proxy
   // async rewrites() {
   //   return [
